@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Embedded Visualization</title>
+    <style>
+        /* CSS to hide the Tableau Public footer */
+        iframe[src*="public.tableau.com"] {
+            height: 600px; /* Set height for the visualization */
+            width: 100%; /* Set width as per your requirement */
+        }
+        div.tab-toolbar {
+            display: none !important; /* This hides the bottom Tableau toolbar */
+        }
+    </style>
+</head>
+<body>
+    <h2>Embedded Tableau Dashboard</h2>
+    
+    <iframe src="https://public.tableau.com/views/Surendra_1234/Dashboard1?:showVizHome=no&:showTabs=false" width="800" height="600"></iframe>
+    
+</body>
+</html>
